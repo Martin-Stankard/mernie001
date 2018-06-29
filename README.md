@@ -2,3 +2,5 @@
 A ModoDB Express React Node stack Todo list.
 
 martin martin123
+
+npm run dev
