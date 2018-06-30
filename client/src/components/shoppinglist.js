@@ -67,4 +67,4 @@ const mapStateToProps = state =>({
 
 export default connect(mapStateToProps,{
     getItems
-});
+})(ShoppingList);
