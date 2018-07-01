@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server \" \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm build --prefix client"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "body-parser": "^1.18.3",
     "concurrently": "^3.6.0",
     "express": "^4.16.3",
-    "mongoose": "^5.1.7"
+    "mongoose": "^5.1.7",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
