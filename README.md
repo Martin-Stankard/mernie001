@@ -1,6 +1,10 @@
 # mernie001
-A ModoDB Express React Node stack Todo list.
+A ModoDB Express React Node stack Todo list. Server and Client in one Heroku Dyno
 
-martin martin123
+free tier, takes a second to wake up.
 
-npm run dev
+https://mernie001.herokuapp.com/
+
+
+Local dev dual boot script, after npm install
+"npm run dev"
